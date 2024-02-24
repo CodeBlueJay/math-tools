@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Tools</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Math Tools</h1>
+    <button id="darkModeToggle">Dark Mode</button>
+  </header>
+  <main>
+  <section id="radicalSimplifier" class="tool-section">
+    <h2>Simplify Radicals</h2>
+    <div class="input-container">
+      <input type="text" id="radicalInput" placeholder="Enter a radical">
+      <button onclick="addRadical()">√</button>
+    </div>
+    <button onclick="simplifyRadical()">Simplify</button>
+    <p id="simplifiedRadical" class="result"></p>
+  </section>
+    
+    <section id="decimalToFraction" class="tool-section">
+      <h2>Convert Decimal to Fraction</h2>
+      <div class="input-container">
+        <input type="text" id="decimalInput" placeholder="Enter a decimal">
+      </div>
+      <button onclick="convertToFraction()">Convert</button>
+      <p id="fractionResult" class="result"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

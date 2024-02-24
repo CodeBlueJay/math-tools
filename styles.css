@@ -1,0 +1,102 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #222;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+#darkModeToggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+#darkModeToggle:hover {
+  color: #ddd;
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.tool-section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #fff;
+}
+
+.input-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-bottom: 10px; /* Add margin to the bottom */
+}
+
+.input-container input {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+}
+
+.input-container button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.input-container button:hover {
+  background-color: #666;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+.result {
+  margin-top: 10px;
+  color: #fff;
+}
